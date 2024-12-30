@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <title>E-Shop</title>
+</head>
+<body id="top">
+    <!-- header menu section -->
+    <section class="header_menu" id="header_menu">
+    <div class="container-fluid px-0 shadow">  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <a class="navbar-brand pl-5 pl-small-0" href="#"><h3>E-Shop</h3>
+          <!-- <img src="img/images.jpg" class="img img-fluid" width="60px" alt="logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="category.html">Category</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+          </ul>
+          <div class="search mr-3"> 
+            <a href="search.html" class="btn btn-sm btn-outline-primary"> 
+              Search 
+            </a> 
+          </div>
+          <div class="cart"> 
+            <a href="cart.html"> 
+              <i class="fas fa-shopping-cart fa-2x"></i> 
+              <span class="badge badge-pill badge-primary">2</span> 
+            </a> 
+          </div>
+        </div>
+      </nav>
+      </div>
+      </section>
+
+      <!-- slider bar -->
+      <section class="header-carousel" id="header_carousel"></section>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><a href="watchlist.html">
+            <img class="d-block w-100 " src="img/smartwatches-2048px-2x1-1.webp" alt="First slide" height="600"></a>
+          </div>
+          <div class="carousel-item"><a href="laptoplist.html">
+            <img class="d-block w-100" src="img/download (1).jfif" alt="Second slide" height="600"></a>
+          </div>
+          <div class="carousel-item"><a href="phonelist.html">
+            <img class="d-block w-100 " src="img/download.jfif" alt="Third slide" height="600"></a>a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==============shop by category starts here============== --> 
+<section class="shop_by_category py-5 my-5" id="shop_by_category"> 
+  <div class="container-fluid"> 
+  <div class="section_title text-center mb-5"> 
+  <h1 class="text-capitalize">Shop By category</h1> 
+  </div> 
+        <div class="row"> 
+          <div class="col-md-4 col-12"> 
+            <div class="card bg-dark text-white"> 
+              <a href="phonelist.html"> 
+                <img class="card-img img img-fluid" src="img/download.jfif" 
+  alt="Card image"> 
+              </a> 
+            </div> 
+          </div> 
+          <div class="col-md-4 col-12 mt-small-5 mb-small-5"> 
+            <div class="card bg-dark text-white"> 
+              <a href="laptoplist.html"> 
+                <img class="card-img img img-fluid" src="img/download (1).jfif" 
+  alt="Card image"> 
+              </a> 
+            </div> 
+          </div> 
+          <div class="col-md-4 col-12"> 
+            <div class="card bg-dark text-white"> 
+              <a href="watchlist.html"> 
+                <img class="card-img img img-fluid" src="img/smartwatches-2048px-2x1-1.webp" alt="Card image" > 
+              </a> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </section>
+          <!-- ==============products starts here============== --> 
+          <section class="products py-5 my-5 bg-light" id="products"> 
+            <div class="container "> 
+            <div class="section_title text-center mb-5"> 
+            <h1 class="text-capitalize">Latest Products</h1> 
+            </div> 
+            <div class="row mb-5"> 
+            <div class="col-md-4 col-12"> 
+            <div class="single_product shadow text-center p-1"> 
+            <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/shopping (1).webp" 
+            class="img img-fluid" alt=""></a> 
+                          
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="far fa-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                          </div> 
+                          <h4><a href="l1.html">Redmi note 13pro+5G</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>33,499</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12"> 
+                      <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5"> 
+                        <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/81vxWpPpgNL._SX679_.jpg" 
+            class="img img-fluid" alt="" width="185" height="100"></a> 
+                         
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star "></i> 
+                          </div> 
+                          <h4><a href="l2.html">Samsung Galaxy S24 Ultra 5G</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>1,59,999</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12"> 
+                      <div class="single_product shadow text-center p-1"> 
+                        <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/41tRLzvGmqL._SX300_SY300_QL70_FMwebp_.webp" 
+            class="img img-fluid" alt="" width="190"></a> 
+                          
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                          </div> 
+                          <h4><a href="l3.html">Realme NARZO 70x5G</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>14,999</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                  <div class="row"> 
+                    <div class="col-md-4 col-12"> 
+                      <div class="single_product shadow text-center p-1"> 
+                        <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/41zb7hwFUmL._SY445_SX342_QL70_FMwebp_.webp" 
+            class="img img-fluid" alt="" width="220"></a> 
+                          
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                          </div> 
+                          <h4><a href="l4.html">Apple iPhone 15 Pro Max</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>1,47,999</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12"> 
+                      <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5"> 
+                        <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/31ducEh481L._SX300_SY300_QL70_FMwebp_.webp" 
+            class="img img-fluid" alt="" width="220"></a> 
+                          
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                          </div> 
+                          <h4><a href="l5.html">Samsung Galaxy S23 FE5G</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>35,299</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12"> 
+                      <div class="single_product shadow text-center p-1"> 
+                        <div class="product_img"> 
+                          <a href="product_detail.html"><img src="img/41VFvti1aEL._SX300_SY300_QL70_FMwebp_.webp" 
+            class="img img-fluid" alt="" width="220"></a> 
+                         
+                        </div> 
+                        <div class="product-caption my-3"> 
+                          <div class="product-ratting"> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="fas fa-star"></i> 
+                            <i class="far fa-star low-star"></i> 
+                          </div> 
+                          <h4><a href="l6.html">Realme GT 6T 5G</a></h4> 
+                          <div class="price"> 
+                            <b><span class="mr-1">₹</span><span>38,999</span></b> 
+                          </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+              </section>
+
+              <!-- ==============feature starts here============== --> 
+              
+              <section class="feature py-5 mt-5" id="feature">
+                <div class="section_title text-center mb-5"> 
+                  <h1 class="text-capitalize">Our Features</h1> 
+                </div>  
+                <div class="container" style="display: flex;"> 
+                  
+                  
+                    <div class="col-md-4 col-12 shadow p-3" >  
+                      <div class="text-center"> 
+                        <div class="mb-4"> 
+                          <i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i> 
+                          <div> 
+                            <h3>Free Shipping Method</h3> 
+                          </div> 
+                        </div> 
+                        <div> 
+                          <p>E-shop provide free shipping for only 10 order by user.</p>
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12 shadow p-3 mt-small-5 mb-small-5"> 
+                      <div class="text-center"> 
+                        <div class="mb-4"> 
+                          <i class="fas fa-lock fa-3x mb-3 pt-2"></i> 
+                          <div> 
+                            <h3>Secure Payment System</h3> 
+                          </div> 
+                        </div> 
+                        <div> 
+                         <p>E-ship provide safe payment system. it is safe user details from third party. User can pay online or ofilne safely. </p>
+                        </div> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-4 col-12 shadow p-3"> 
+                      <div class="text-center"> 
+                        <div class="mb-4"> 
+                          <i class="fas fa-headphones fa-3x mb-3 pt-2"></i> 
+                          <div> 
+                            <h3>24/7 Support</h3> 
+                          </div> 
+                        </div> 
+                        <div> 
+                        <p>E-shop provide 24/7 custome services for user. User can anytime, anywhere contact support team. User can solve our problem with Customer team.</p>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+              </section>
+           <!-- ==============footer starts here============== --> 
+            <section class="footer_section pt-5 pb-2" id="footer_section"> 
+              <footer> 
+                <div class="container-fluid"> 
+                  <div class="row"> 
+                    <div class="col-md-3 col-6 pl-5 pl-small-15"> 
+                      <div class="footer_title"> 
+                        <a href="index.html"><img src="img/images.png" width="180px" class="img img-fluid" alt="logo"></a> 
+                      </div> 
+                     
+                    </div> 
+                    <div class="col-md-3 col-6"> 
+                      <div class="footer_title pt-3 mb-3"> 
+                        <h3>Quick Links</h3> 
+                      </div> 
+                      <div class="footer_links"> 
+                        <ul type="none"> 
+                          <li><a href="about.html">About</a></li> 
+                          <li><a href="cart.html">Cart</a></li> 
+                          <li><a href="category.html">Product Category</a></li> 
+                          <li><a href="contact.html">Contact Us</a></li> 
+                        </ul> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-3 col-6"> 
+                      <div class="footer_title pt-3 mb-3"> 
+                        <h3>New Products</h3> 
+                      </div> 
+                      <div class="footer_links"> 
+                        <ul type="none"> 
+                          <li><a href="phonelist.html">Smart Phones</a></li> 
+                          <li><a href="laptoplist.html">Laptop</a></li> 
+                          <li><a href="watchlist.html">Smart Watch</a></li> 
+                          <li><a href="budslist.html">Earbuds</a></li> 
+                        </ul> 
+                      </div> 
+                    </div> 
+                    <div class="col-md-3 col-6"> 
+                      <div class="footer_title pt-3 mb-3"> 
+                        <h3>Support</h3> 
+                      </div> 
+                      <div class="footer_links"> 
+                        <ul type="none"> 
+                          <li><b>Address:</b>Nagpur, Maharashtra</li> 
+                          <li><b>Email:</b>sandeshsanjayshelke@gmail.com</li> 
+                          <li><b>Contact:</b>9673857610</li> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+                
+                <div class="border-top"> 
+                  <h6 class="text-center mt-3">Copyright ©2024 All rights reserved </h6> 
+                </div> 
+              </footer> 
+            </section> 
+            <div class="backtop" style="padding-bottom: 20px; padding-left:20px;"> 
+              <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button"> 
+                <i class="fas fa-chevron-up text-dark"></i> 
+              </a> 
+           </div>
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

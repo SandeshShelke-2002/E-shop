@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <title>E-Shop</title>
+</head>
+<body>
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+            <a class="navbar-brand pl-5 pl-small-0" href="#"><h3>E-Shop</h3>
+              <!-- <img src="img/images.jpg" class="img img-fluid" width="60px" alt="logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="./product.html">Product</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./category.html">Category</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+              </ul>
+              <div class="search mr-3"> 
+                <a href="search.html" class="btn btn-sm btn-outline-primary"> 
+                  Search 
+                </a> 
+              </div>
+              <div class="cart"> 
+                <a href="cart.html"> 
+                  <i class="fas fa-shopping-cart fa-2x"></i> 
+                  <span class="badge badge-pill badge-primary">2</span> 
+                </a> 
+              </div>
+            </div>
+          </nav>
+          </div>
+          </section>
+
+          <!-- product view -->
+          <section class="product_detail py-5 my-5" id="product_detail"> 
+            <div class="container "> 
+                <div class="section_title text-center mb-5"> 
+                    <h1 class="text-capitalize">product detail</h1> 
+                </div> 
+                <div class="row"> 
+                    <div class="col-md-6"> 
+                        <div class="row"> 
+                            <div class="col-md-12"> 
+                                <div id="carouselExampleIndicators" class="carousel slide shadow  rounded" data-ride="carousel"> 
+                                    
+                                    <div class="carousel-inner"> 
+                                        <div class="carousel-item active" style="padding-left: 300px;"> 
+                                            <img src="img/shopping (2).webp"
+                                                class="d-block w-80 img img-fluid rounded" alt="image" width="550"> 
+                                        </div> 
+                                        
+                                    </div> 
+                                   
+                                </div> 
+                            </div> 
+     
+                        </div> 
+                    </div> 
+                    <div class="col-md-6"> 
+                        <div class="row"> 
+                            <div class="col-md-12"> 
+                                <div class="title mb-4"> 
+                                    <h3>Dell Inspiron</h3> 
+                                </div> 
+                                <div class="category mb-4"> 
+                                    <span class="bg-light-gray p-2"><a  href="laptoplist.html">Laptop</a></span> 
+                                </div>
+                                <div class="rating d-flex text-danger mb-4"> 
+                                    <i class="fas fa-star"></i> 
+                                    <i class="fas fa-star"></i> 
+                                    <i class="fas fa-star"></i> 
+                                    <i class="fas fa-star"></i> 
+                                    <i class="far fa-star"></i> 
+                                </div> 
+                                <div class="price mb-4"> 
+                                    <b><span class="mr-1">₹</span><span>4,990</span></b> 
+                                </div> 
+                                <div class="desc "> 
+                                    <p> 
+                                      This model name is Dell inspiron laptop<br>
+                                      13th Gen intel core i5-1334U (12 MB, 10 cores, 12 threads, up to 4.60GHz Turbo)
+                                     
+                                    </p> 
+                                </div> 
+                                <div class="qty_section border-top pt-2 mb-4"> 
+                                    <label>Quantitiy</label> 
+                                    <div> 
+                                        <div class="mb-0 w-100"> 
+                                            <input class="quantity text-center" min="0" max="10" name="quantity" value="1" 
+                                                type="number"> 
+                                        </div> 
+                                    </div> 
+                                </div> 
+                                <div class="buy"> 
+                                    <a href="cart.html" class="btn btn-primary shadow">Add to Cart</a> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+     
+                <!-- ----------------related products starts here---------- --> 
+                <section class="related_products py-5 my-5" id="related_products"> 
+                    <div class="title"> 
+                        <h3>Related Products</h3> 
+                    </div> 
+     
+                    <div class="row mt-5"> 
+                        <div class="col-md-4 col-6"> 
+                            <div class="border border-dark rounded shadow text-center p-3"> 
+                                <div class="mb-4"> 
+                                    <img src="img/shopping (4).webp" class="img img-fluid" alt="image" width="240"> 
+                                </div> 
+                                <div> 
+                                    <a href="laptop2.html"> 
+                                        <h5>HP Laptop 15</h5> 
+                                    </a> 
+                                </div> 
+                            </div> 
+                        </div> 
+                        <div class="col-md-4 col-6"> 
+                            <div class="border border-dark rounded shadow text-center p-3"> 
+                                <div class="mb-4"> 
+                                    <img src="img/shopping (3).webp" class="img img-fluid" alt="image" width="240"> 
+                                </div> 
+                                <div> 
+                                    <a href="javascript:;"> 
+                                        <h5>HP Pavilion x360</h5> 
+                                    </a>
+                                </div> 
+                            </div> 
+                        </div> 
+                        <div class="col-md-4 col-6"> 
+                            <div class="border border-dark rounded shadow text-center p-3"> 
+                                <div class="mb-4"> 
+                                    <img src="img/shopping (6).webp" class="img img-fluid" alt="image" width="240"> 
+                                </div> 
+     
+                                <div> 
+                                    <a href="l2.html"> 
+                                        <h5>Asus Vivobook 15</h5> 
+                                    </a> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </section> 
+                <!-- ----------------related products ends here---------- --> 
+            </div> 
+        </section>
+    
+         
+</body>
+</html>
